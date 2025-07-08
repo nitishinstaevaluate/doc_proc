@@ -1,0 +1,767 @@
+{
+    "P&L": {
+        "row1": {
+            "A_value": "Sr no.",
+            "B_value": "Particulars",
+            "C_value": "2023-2024",
+            "D_value": "{{Add Provisional financial date in DD-MM-YYYY}} format"
+        },
+        "row2": {
+            "B_value": "Income"
+        },
+        "row3": {
+            "A_value": "I",
+            "B_value": "Revenue From Operations/Sales"
+        },
+        "row4": {
+            "A_value": "II",
+            "B_value": "Other Operating Income:"
+        },
+        "row5": {},
+        "row6": {
+            "A_value": "III ",
+            "B_value": "Other Non-Operating Income",
+            "C_formula": "=SUM(C7:C14)",
+            "D_formula": "=SUM(D7:D14)"
+        },
+        "row7": {
+            "B_value": "Commission earned"
+        },
+        "row8": {
+            "B_value": "Investment Income"
+        },
+        "row9": {
+            "B_value": "Interest Income"
+        },
+        "row10": {
+            "B_value": "Profit on sale of property, plant & equipment"
+        },
+        "row11": {
+            "B_value": "Profit on sale of Intangible asset"
+        },
+        "row12": {
+            "B_value": "Frachise fees"
+        },
+        "row13": {
+            "B_value": "Profit on sale of equipment"
+        },
+        "row14": {
+            "B_value": "Other Income"
+        },
+        "row15": {
+            "A_value": "III",
+            "B_value": "Total Income",
+            "C_formula": "=C3+C4+C6",
+            "D_formula": "=D3+D4+D6"
+        },
+        "row16": {},
+        "row17": {
+            "A_value": "IV",
+            "B_value": "Expenses"
+        },
+        "row18": {
+            "B_value": "Cost of materials consumed"
+        },
+        "row19": {
+            "B_value": "Purchases of Stock-in-Trade"
+        },
+        "row20": {
+            "B_value": "Changes in Inventory"
+        },
+        "row21": {
+            "B_value": "Employee benefits expense"
+        },
+        "row22": {
+            "B_value": "Other Operating Expenses"
+        },
+        "row23": {},
+        "row24": {
+            "B_value": "Other Non-Operating expenses:",
+            "C_formula": "=SUM(C25:C27)",
+            "D_formula": "=SUM(D25:D27)"
+        },
+        "row25": {
+            "B_value": "Loss on sale of property, plant & equipment"
+        },
+        "row26": {
+            "B_value": "Loss on sale of Intangible asset"
+        },
+        "row27": {
+            "B_value": "Other Non Operating Expenses"
+        },
+        "row28": {},
+        "row29": {
+            "B_value": "Total Expense",
+            "C_formula": "=SUM(C18:C22)+C24",
+            "D_formula": "=SUM(D18:D22)+D24"
+        },
+        "row30": {},
+        "row31": {
+            "B_value": "Earnings Before Interest Taxation, Depreciation and Amortisation (EBITDA)",
+            "C_formula": "=C15-C29",
+            "D_formula": "=D15-D29"
+        },
+        "row32": {
+            "B_value": "Less: Depreciation and amortization expense"
+        },
+        "row33": {},
+        "row34": {
+            "B_value": "Earnings Before Interest Taxation (EBIT)",
+            "C_formula": "=C31-C32",
+            "D_formula": "=D31-D32"
+        },
+        "row35": {
+            "B_value": "Finance costs"
+        },
+        "row36": {},
+        "row37": {
+            "A_value": "V",
+            "B_value": "Profit/(loss) before exceptional items and tax (I - IV)",
+            "C_formula": "=C34-C35",
+            "D_formula": "=D34-D35"
+        },
+        "row38": {
+            "A_value": "VI",
+            "B_value": "Exceptional Items"
+        },
+        "row39": {},
+        "row40": {
+            "A_value": "VII",
+            "B_value": "Profit/(loss) before tax (V-VI)",
+            "C_formula": "=C37-C38",
+            "D_formula": "=D37-D38"
+        },
+        "row41": {},
+        "row42": {
+            "A_value": "VIII",
+            "B_value": "Tax expense:"
+        },
+        "row43": {
+            "B_value": "(1) Current tax"
+        },
+        "row44": {
+            "B_value": "(2) Deferred tax"
+        },
+        "row45": {
+            "B_value": "Total Tax Expense",
+            "C_formula": "=SUM(C43:C44)",
+            "D_formula": "=SUM(D43:D44)"
+        },
+        "row46": {},
+        "row47": {
+            "A_value": "IX",
+            "B_value": "Profit (Loss) for the period from continuing operations (VII-VIII)",
+            "C_formula": "=C40-C45",
+            "D_formula": "=D40-D45"
+        },
+        "row48": {},
+        "row49": {
+            "A_value": "X",
+            "B_value": "Profit/(loss) from discontinued operations"
+        },
+        "row50": {
+            "A_value": "XI",
+            "B_value": "Tax expense of discontinued operations"
+        },
+        "row51": {
+            "A_value": "XII",
+            "B_value": "Profit/(loss) from Discontinued operations (after tax) (X-XI)",
+            "C_formula": "=C49-C50",
+            "D_formula": "=D49-D50"
+        },
+        "row52": {},
+        "row53": {
+            "A_value": "XIII",
+            "B_value": "Profit/(loss) for the period (IX+XII)",
+            "C_formula": "=C51+C47",
+            "D_formula": "=D51+D47"
+        },
+        "row54": {},
+        "row55": {
+            "A_value": "XIV",
+            "B_value": "Other Comprehensive Income"
+        },
+        "row56": {
+            "B_value": "Foreign currency translation gains"
+        },
+        "row57": {},
+        "row58": {
+            "B_value": "A"
+        },
+        "row59": {
+            "B_value": "(i) Items that will not be reclassified to profit or loss"
+        },
+        "row60": {
+            "B_value": "(ii) Income tax relating to items that will not be reclassified to profit or loss"
+        },
+        "row61": {
+            "B_value": "B"
+        },
+        "row62": {
+            "B_value": "(i) Items that will be reclassified to profit or loss"
+        },
+        "row63": {
+            "B_value": "(ii) Income tax relating to items that will be reclassified to profit or loss"
+        },
+        "row64": {},
+        "row65": {
+            "A_value": "XV",
+            "B_value": "Total Comprehensive Income for the period (XIII+XIV) (Comprising Profit (Loss) and Other Comprehensive Income for the period)",
+            "C_formula": "=C53+SUM(C59:C63)",
+            "D_formula": "=D53+SUM(D59:D63)"
+        },
+        "row66": {},
+        "row67": {},
+        "row68": {},
+        "row69": {},
+        "row70": {},
+        "row71": {},
+        "row72": {},
+        "row73": {},
+        "row74": {},
+        "row75": {},
+        "row76": {},
+        "row77": {},
+        "row78": {},
+        "row79": {},
+        "row80": {},
+        "row81": {},
+        "row82": {},
+        "row83": {},
+        "row84": {},
+        "row85": {},
+        "row86": {},
+        "row87": {},
+        "row88": {},
+        "row89": {},
+        "row90": {},
+        "row91": {},
+        "row92": {},
+        "row93": {},
+        "row94": {},
+        "row95": {},
+        "row96": {},
+        "row97": {},
+        "row98": {},
+        "row99": {},
+        "row100": {},
+        "row101": {},
+        "row102": {},
+        "row103": {},
+        "row104": {},
+        "row105": {},
+        "row106": {},
+        "row107": {},
+        "row108": {},
+        "row109": {},
+        "row110": {},
+        "row111": {},
+        "row112": {},
+        "row113": {},
+        "row114": {},
+        "row115": {},
+        "row116": {},
+        "row117": {},
+        "row118": {},
+        "row119": {},
+        "row120": {},
+        "row121": {},
+        "row122": {},
+        "row123": {},
+        "row124": {},
+        "row125": {},
+        "row126": {},
+        "row127": {},
+        "row128": {},
+        "row129": {},
+        "row130": {},
+        "row131": {},
+        "row132": {},
+        "row133": {},
+        "row134": {},
+        "row135": {},
+        "row136": {},
+        "row137": {},
+        "row138": {},
+        "row139": {},
+        "row140": {},
+        "row141": {},
+        "row142": {},
+        "row143": {},
+        "row144": {},
+        "row145": {},
+        "row146": {},
+        "row147": {},
+        "row148": {},
+        "row149": {},
+        "row150": {},
+        "row151": {},
+        "row152": {},
+        "row153": {},
+        "row154": {},
+        "row155": {},
+        "row156": {},
+        "row157": {},
+        "row158": {},
+        "row159": {},
+        "row160": {},
+        "row161": {},
+        "row162": {},
+        "row163": {},
+        "row164": {},
+        "row165": {},
+        "row166": {},
+        "row167": {},
+        "row168": {},
+        "row169": {},
+        "row170": {},
+        "row171": {},
+        "row172": {},
+        "row173": {},
+        "row174": {},
+        "row175": {},
+        "row176": {},
+        "row177": {}
+    },
+    "BS": {
+        "row1": {
+            "A_value": "Particulars",
+            "B_value": "2023-2024",
+            "C_value": "{{Add Provisional financial date in DD-MM-YYYY}} format"
+        },
+        "row2": {
+            "A_value": "Assets"
+        },
+        "row3": {},
+        "row4": {
+            "A_value": "Non-current assets"
+        },
+        "row5": {
+            "A_value": "(a) property, plant and equipment"
+        },
+        "row6": {
+            "A_value": "(i) moveable"
+        },
+        "row7": {
+            "A_value": "(ii) immoveable"
+        },
+        "row8": {
+            "A_value": " - Land & Building"
+        },
+        "row9": {
+            "A_value": " - Plant & Machinery"
+        },
+        "row10": {
+            "A_value": "(b) capital work in progress"
+        },
+        "row11": {
+            "A_value": "(c) investment property"
+        },
+        "row12": {
+            "A_value": "(d) goodwill"
+        },
+        "row13": {
+            "A_value": "(e) other intangible assets"
+        },
+        "row14": {
+            "A_value": "(f) intangible assets under development"
+        },
+        "row15": {
+            "A_value": "(g) biological assets other than bearer plants"
+        },
+        "row16": {
+            "A_value": "(h) right of use of assets"
+        },
+        "row17": {
+            "A_value": "(i) financial assets"
+        },
+        "row18": {
+            "A_value": "(i)Investments in Subsidiary/JV/Associate"
+        },
+        "row19": {
+            "A_value": "(ii)Other Non-Current Investments"
+        },
+        "row20": {
+            "A_value": "(iii)long term loans and advances"
+        },
+        "row21": {
+            "A_value": "(iv) deferred tax assets(net)"
+        },
+        "row22": {
+            "A_value": "(j) other non-current assets"
+        },
+        "row23": {
+            "A_value": "Other Non-Operating Assets"
+        },
+        "row24": {
+            "A_value": "Deposits"
+        },
+        "row25": {},
+        "row26": {
+            "A_value": "Total non current assets",
+            "B_formula": "=SUM(B6:B16,B18:B24)",
+            "C_formula": "=SUM(C6:C16,C18:C24)"
+        },
+        "row27": {},
+        "row28": {
+            "A_value": "Current assets"
+        },
+        "row29": {
+            "A_value": "(a) inventories"
+        },
+        "row30": {
+            "A_value": "(b) financial assets"
+        },
+        "row31": {
+            "A_value": "(i)Current investment"
+        },
+        "row32": {
+            "A_value": "(ii) trade receivables"
+        },
+        "row33": {
+            "A_value": "(iii) cash and cash equivalents"
+        },
+        "row34": {
+            "A_value": "(iv) bank balance other than (iii)above"
+        },
+        "row35": {
+            "A_value": "(v) short term loans & advances"
+        },
+        "row36": {
+            "A_value": "(vii) current tax assets (net)"
+        },
+        "row37": {
+            "A_value": "(c) other current assets"
+        },
+        "row38": {
+            "A_value": "Total current assets",
+            "B_formula": "=SUM(B29,B31:B37)",
+            "C_formula": "=SUM(C29,C31:C37)"
+        },
+        "row39": {},
+        "row40": {
+            "A_value": "Total Assets",
+            "B_formula": "=SUM(B26,B38)",
+            "C_formula": "=SUM(C26,C38)"
+        },
+        "row41": {},
+        "row42": {
+            "A_value": "EQUITY AND LIABILITIES"
+        },
+        "row43": {},
+        "row44": {
+            "A_value": "Equity"
+        },
+        "row45": {
+            "A_value": "(a) Equity share capital"
+        },
+        "row46": {
+            "A_value": "(b) Preference share capital"
+        },
+        "row47": {
+            "A_value": "(c) Equity Infusion"
+        },
+        "row48": {
+            "A_value": "(d) Share Application Money Pending Allotment"
+        },
+        "row49": {
+            "A_value": "(e) other equity"
+        },
+        "row50": {
+            "A_value": "(i) Securities Premium"
+        },
+        "row51": {
+            "A_value": "(ii) revaluation Reserve"
+        },
+        "row52": {
+            "A_value": "(iii) General Reserves"
+        },
+        "row53": {
+            "A_value": "(iv) Retained Earnings"
+        },
+        "row54": {
+            "A_value": "Total Equity",
+            "B_formula": "=SUM(B45:B53)",
+            "C_formula": "=SUM(C45:C53)"
+        },
+        "row55": {},
+        "row56": {
+            "A_value": "Liabilities"
+        },
+        "row57": {
+            "A_value": "Non-current liabilities"
+        },
+        "row58": {
+            "A_value": "(a)financial liabilities"
+        },
+        "row59": {
+            "A_value": "(i)borrowings"
+        },
+        "row60": {
+            "A_value": "(ii) other financial liabilities"
+        },
+        "row61": {
+            "A_value": "(iii) lease liabilities"
+        },
+        "row62": {
+            "A_value": "(b) provision"
+        },
+        "row63": {
+            "A_value": "(c)  deferred tax liabilities(net)"
+        },
+        "row64": {
+            "A_value": "(d) other non current liabilities"
+        },
+        "row65": {
+            "A_value": "(e) other non operating liabilities"
+        },
+        "row66": {
+            "A_value": "Total Non - current Liabilities",
+            "B_formula": "=SUM(B59:B65)",
+            "C_formula": "=SUM(C59:C65)"
+        },
+        "row67": {},
+        "row68": {
+            "A_value": "Current liabilities"
+        },
+        "row69": {
+            "A_value": "(a) financial liabilities"
+        },
+        "row70": {
+            "A_value": "(i) borrowings"
+        },
+        "row71": {
+            "A_value": "(ii) trade payables"
+        },
+        "row72": {
+            "A_value": "(iii) other financial liabilities(other than these specified in item (c))"
+        },
+        "row73": {
+            "A_value": "(b) other current liabilities"
+        },
+        "row74": {
+            "A_value": "(c) provisions"
+        },
+        "row75": {
+            "A_value": "(d) current tax liabilities(net)"
+        },
+        "row76": {
+            "A_value": "Total Current Liabilities",
+            "B_formula": "=SUM(B70:B75)",
+            "C_formula": "=SUM(C70:C75)"
+        },
+        "row77": {},
+        "row78": {
+            "A_value": "Total Equity and Liabilities",
+            "B_formula": "=SUM(B54,B66,B76)",
+            "C_formula": "=SUM(C54,C66,C76)"
+        },
+        "row79": {},
+        "row80": {
+            "A_value": "Check",
+            "B_formula": "=IF(B78=B40,0,B40-B78)",
+            "C_formula": "=IF(C78=C40,0,C40-C78)"
+        },
+        "row81": {},
+        "row82": {},
+        "row83": {},
+        "row84": {},
+        "row85": {},
+        "row86": {},
+        "row87": {},
+        "row88": {},
+        "row89": {},
+        "row90": {},
+        "row91": {}
+    },
+    "Cash Flow": {
+        "row1": {
+            "A_value": "Sr No",
+            "B_value": "Particulars",
+            "C_value": "{{Add Provisional financial date in DD-MM-YYYY}} format",
+            "D_value": "defaultYear"
+        },
+        "row2": {
+            "A_value": "I",
+            "B_value": "Operating Cash Flow:"
+        },
+        "row3": {
+            "B_value": "Profit before Interest tax and exceptional items",
+            "C_formula": "='P&L'!C40",
+            "D_formula": "='P&L'!E40"
+        },
+        "row4": {
+            "B_value": "Adjustments for:"
+        },
+        "row5": {
+            "B_value": "Depreciation & Amortization",
+            "C_formula": "='P&L'!C32",
+            "D_formula": "='P&L'!E32"
+        },
+        "row6": {
+            "B_value": "Investment income",
+            "C_formula": "='P&L'!C8",
+            "D_formula": "='P&L'!E8"
+        },
+        "row7": {
+            "B_value": "Finance cost",
+            "C_formula": "='P&L'!C35",
+            "D_formula": "='P&L'!E35"
+        },
+        "row8": {
+            "B_value": "Profit / (Loss) on the sale of property, plant & equipment",
+            "C_formula": "='P&L'!C10-'P&L'!C25",
+            "D_formula": "='P&L'!E10-'P&L'!E25"
+        },
+        "row9": {
+            "B_value": "Profit / (Loss) on the sale of intangible assets",
+            "C_formula": "='P&L'!C11-'P&L'!C26",
+            "D_formula": "='P&L'!E11-'P&L'!E26"
+        },
+        "row10": {
+            "B_value": "Working capital changes:"
+        },
+        "row11": {
+            "B_value": "(Increase) / Decrease in trade and other receivables",
+            "D_formula": "=-((BS!D32)-(BS!B32))"
+        },
+        "row12": {
+            "B_value": "(Increase) / Decrease in inventories",
+            "D_formula": "=-(BS!D29-BS!B29)"
+        },
+        "row13": {
+            "B_value": "(Increase) / Decrease in Other Current Assets",
+            "D_formula": "=-((+BS!D37+BS!D22+BS!D21)-(+BS!B37+BS!B22+BS!B21))"
+        },
+        "row14": {
+            "B_value": "(Increase) / Decrease in Loans & Advances",
+            "D_formula": "=-((BS!D20+BS!D35)-(BS!B20+BS!B35))"
+        },
+        "row15": {
+            "B_value": "(Increase) / Decrease in Tax Assets",
+            "D_formula": "=-(BS!D36-BS!B36)"
+        },
+        "row16": {
+            "B_value": "Increase / (Decrease) in trade payables",
+            "D_formula": "=(BS!D71)-(BS!B71)"
+        },
+        "row17": {
+            "B_value": "Increase / (Decrease) in  other payables",
+            "D_formula": "=(BS!D72+BS!D60)-(BS!B72+BS!B60)"
+        },
+        "row18": {
+            "B_value": "Increase / (Decrease) in provisions and other current Liabilities",
+            "D_formula": "=(BS!D73+BS!D74+BS!D62+BS!D63)-(BS!B73+BS!B74+BS!B62+BS!B63)"
+        },
+        "row19": {
+            "B_value": "Increase / (Decrease) in Non-Current Liabilities",
+            "D_formula": "=(BS!D64-BS!B64)"
+        },
+        "row20": {
+            "B_value": "Increase / (Decrease) in Tax Liabilities",
+            "D_formula": "=BS!D75-BS!B75"
+        },
+        "row21": {
+            "B_value": "Effect of foreign exchange",
+            "C_formula": "='P&L'!C56",
+            "D_formula": "='P&L'!E56"
+        },
+        "row22": {
+            "B_value": "Income taxes paid",
+            "C_formula": "=-'P&L'!C45",
+            "D_formula": "=-'P&L'!E45"
+        },
+        "row23": {
+            "B_value": "Net cash from operating activities",
+            "C_formula": "=SUM(C3:C22)",
+            "D_formula": "=SUM(D3:D22)"
+        },
+        "row24": {},
+        "row25": {
+            "A_value": "II",
+            "B_value": "Cash flows from investing activities"
+        },
+        "row26": {
+            "B_value": "Purchase/Sale  of property, plant and equipment",
+            "D_formula": "=-((BS!D6+BS!D7+BS!D8+BS!D9+BS!D10+BS!D13+BS!D14+BS!D15+ BS!D16)+'P&L'!E32-(BS!B6+BS!B7+BS!B8+BS!B9+BS!B10+BS!B13+BS!B14+BS!B15+BS!B16))"
+        },
+        "row27": {
+            "B_value": "Proceeds from sale of equipment",
+            "C_formula": "='P&L'!C13-'P&L'!C27",
+            "D_formula": "='P&L'!E13-'P&L'!E27"
+        },
+        "row28": {
+            "B_value": "Proceeds from sale of intangibles",
+            "C_formula": "='P&L'!C11-'P&L'!C26",
+            "D_formula": "='P&L'!E11-'P&L'!E26"
+        },
+        "row29": {
+            "B_value": "Acquisition of investments",
+            "D_formula": "=-((BS!D11-BS!B11)+(BS!D18+BS!D19)-(BS!B18+BS!B19)+(BS!D31-BS!B31))"
+        },
+        "row30": {
+            "B_value": "Net cash used in investing activities",
+            "C_formula": "=SUM(C27:C29)",
+            "D_formula": "=SUM(D26:D29)"
+        },
+        "row31": {},
+        "row32": {
+            "A_value": "III",
+            "B_value": "Cash flows from financing activities"
+        },
+        "row33": {
+            "B_value": "Proceed from issue of share capital",
+            "D_formula": "=(BS!D45+BS!D47+BS!D50+BS!D51+BS!D52)-(BS!B45+BS!B47+BS!B50+BS!B51+BS!B52)"
+        },
+        "row34": {
+            "B_value": "Proceed from issue of preference share capital",
+            "D_formula": "=BS!D46-BS!B46"
+        },
+        "row35": {
+            "B_value": "Proceeds/Repayment from long-term borrowings",
+            "D_formula": "=BS!D59-BS!B59"
+        },
+        "row36": {
+            "B_value": "Proceeds/Repayment Short-term borrowings",
+            "D_formula": "=BS!D70-BS!B70"
+        },
+        "row37": {
+            "B_value": "Proceeds / (repayment) of lease liability, net",
+            "D_formula": "=BS!D61 - BS!B61"
+        },
+        "row38": {
+            "B_value": "Finance cost ",
+            "C_formula": "=-C7",
+            "D_formula": "=-D7"
+        },
+        "row39": {
+            "B_value": "Share Application money pending",
+            "D_formula": "=BS!D48 - BS!B48"
+        },
+        "row40": {
+            "B_value": "Net cash used in financing activities",
+            "C_formula": "=SUM(C33:C38)",
+            "D_formula": "=SUM(D33:D39)"
+        },
+        "row41": {},
+        "row42": {
+            "A_value": "IV",
+            "B_value": "Net increase in cash and cash equivalents (I+II+III)",
+            "C_formula": "=C23+C30+C40",
+            "D_formula": "=D23+D30+D40"
+        },
+        "row43": {},
+        "row44": {
+            "A_value": "V",
+            "B_value": "Cash and cash equivalents at beginning of period",
+            "D_formula": "=C46"
+        },
+        "row45": {},
+        "row46": {
+            "A_value": "VI",
+            "B_value": "Cash and cash equivalents at end of period (IV+V)",
+            "C_formula": "=BS!B33",
+            "D_formula": "=D42+D44"
+        }
+    }
+}

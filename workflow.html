@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Processing Workflow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .screen {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .screen.active {
+            display: block;
+        }
+
+        .upload-area {
+            border: 2px dashed #3498db;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .upload-area:hover {
+            background-color: #f7f9fc;
+        }
+
+        .progress-container {
+            width: 100%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            width: 0%;
+            height: 20px;
+            background-color: #3498db;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .status {
+            margin-top: 10px;
+            color: #666;
+        }
+
+        .download-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .file-info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .processing-steps {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .processing-step {
+            margin: 10px 0;
+            color: #666;
+            opacity: 0.5;
+            transition: all 0.3s ease;
+        }
+
+        .processing-step.active {
+            color: #2ecc71;
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        .processing-step.completed {
+            color: #27ae60;
+            opacity: 1;
+        }
+
+        .button.refresh {
+            background-color: #27ae60;
+            margin-left: 10px;
+        }
+
+        .button.refresh:hover {
+            background-color: #219a52;
+        }
+
+        .refresh-button-container {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Document Processing Workflow</h1>
+            <p>Upload, Process, and Download your documents</p>
+        </div>
+
+        <!-- Upload Screen -->
+        <div id="uploadScreen" class="screen active">
+            <h2>Step 1: Upload PDF/XLSX</h2>
+            <div class="upload-area" id="dropZone">
+                <p>Drag and drop your PDF/XLSX file here or click to browse</p>
+                <input type="file" id="fileInput" accept=".pdf, .xlsx" style="display: none;">
+                <p class="status" id="uploadStatus"></p>
+            </div>
+            <button class="button" id="uploadButton" disabled>Process Document</button>
+        </div>
+
+        <!-- Processing Screen -->
+        <div id="processingScreen" class="screen">
+            <h2>Step 2: AI Processing</h2>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <p class="status" id="processingStatus">Starting processing...</p>
+            <div class="processing-steps">
+                <div class="refresh-button-container">
+                    <button class="button refresh" id="refreshStateButton">Refresh State</button>
+                </div>
+                <p id="step1" class="processing-step">Extracting content</p>
+                <p id="step2" class="processing-step">Mapping content to appropriate attributes</p>
+                <p id="step3" class="processing-step">Finalizing output</p>
+                <p id="step4" class="processing-step">Generating output file</p>
+                <p id="step5" class="processing-step">Processing complete</p>
+            </div>
+        </div>
+
+        <!-- Download Screen -->
+        <div id="downloadScreen" class="screen">
+            <h2>Step 3: Download & Review</h2>
+            <div class="download-section">
+                <div class="file-info">
+                    <p>Your processed file is ready!</p>
+                    <p>File: <span id="processedFileName">processed_template.xlsx</span></p>
+                </div>
+                <button class="button" id="downloadButton">Download Processed File</button>
+                <div style="margin-top: 20px;">
+                    <h3>Upload Reviewed File</h3>
+                    <div class="upload-area" id="reviewUploadZone">
+                        <p>Upload your reviewed and corrected file here</p>
+                        <input type="file" id="reviewFileInput" accept=".xlsx" style="display: none;">
+                        <p class="status" id="reviewUploadStatus"></p>
+                    </div>
+                    <button class="button" id="submitReviewButton" disabled>Submit Reviewed File</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // File Upload Handling
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const uploadButton = document.getElementById('uploadButton');
+        const uploadStatus = document.getElementById('uploadStatus');
+
+        dropZone.addEventListener('click', () => fileInput.click());
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = '#2ecc71';
+        });
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.style.borderColor = '#3498db';
+        });
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = '#3498db';
+            const files = e.dataTransfer.files;
+            handleFileSelection(files[0]);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFileSelection(e.target.files[0]);
+        });
+
+        function handleFileSelection(file) {
+            if (file && file.type === 'application/pdf') {
+                uploadStatus.textContent = `Selected file: ${file.name}`;
+                // Automatically start processing when file is selected
+                startProcessing();
+            } else {
+                uploadStatus.textContent = 'Please select a valid PDF file';
+            }
+        }
+
+        // Processing Screen
+        const processingScreen = document.getElementById('processingScreen');
+        const progressBar = document.getElementById('progressBar');
+        const processingStatus = document.getElementById('processingStatus');
+        const refreshStateButton = document.getElementById('refreshStateButton');
+        const steps = [
+            document.getElementById('step1'),
+            document.getElementById('step2'),
+            document.getElementById('step3'),
+            document.getElementById('step4'),
+            document.getElementById('step5')
+        ];
+
+        // Function to get random interval between 3 and 7 seconds
+        function getRandomInterval() {
+            return Math.floor(Math.random() * (7000 - 3000 + 1)) + 3000;
+        }
+
+        // Function to update processing state display
+        function updateProcessingState() {
+            const activeStep = steps.findIndex(step => step.classList.contains('active'));
+            const completedSteps = steps.filter(step => step.classList.contains('completed')).length;
+            
+            if (activeStep !== -1) {
+                processingStatus.textContent = `Current State: ${steps[activeStep].textContent}`;
+            } else if (completedSteps === steps.length) {
+                processingStatus.textContent = 'Processing Complete';
+            } else {
+                processingStatus.textContent = 'Processing Paused';
+            }
+        }
+
+        // Function to start processing
+        function startProcessing() {
+            document.getElementById('uploadScreen').classList.remove('active');
+            processingScreen.classList.add('active');
+            
+            // Reset steps
+            steps.forEach(step => {
+                step.classList.remove('active', 'completed');
+            });
+            
+            let currentStep = 0;
+            let progress = 0;
+            
+            const processStep = () => {
+                if (currentStep < steps.length) {
+                    // Update progress bar
+                    progress = (currentStep / steps.length) * 100;
+                    progressBar.style.width = `${progress}%`;
+                    
+                    // Update step status
+                    if (currentStep > 0) {
+                        steps[currentStep - 1].classList.remove('active');
+                        steps[currentStep - 1].classList.add('completed');
+                    }
+                    steps[currentStep].classList.add('active');
+                    
+                    // Update status text
+                    updateProcessingState();
+                    
+                    currentStep++;
+                    
+                    if (currentStep < steps.length) {
+                        // Use random interval between 3-7 seconds
+                        setTimeout(processStep, getRandomInterval());
+                    } else {
+                        // All steps completed
+                        setTimeout(() => {
+                            processingScreen.classList.remove('active');
+                            document.getElementById('downloadScreen').classList.add('active');
+                            // Automatically trigger download
+                            downloadProcessedFile();
+                        }, 1000);
+                    }
+                }
+            };
+            
+            // Start processing
+            processStep();
+        }
+
+        // Function to download processed file
+        function downloadProcessedFile() {
+            const link = document.createElement('a');
+            link.href = 'data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,UEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAHAAAAX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAKAAAAX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAJAAAAX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAIAAAAX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAHAAAAX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAGAAAAX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAFAAAAX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAAEAAAAX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvX3JlbHMvUEsDBBQAAAAIAJqFbVYAAAAAAAAAAAAAAAA=';
+            link.download = 'processed_template.xlsx';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Add refresh state button click handler
+        refreshStateButton.addEventListener('click', updateProcessingState);
+
+        // Remove the upload button click handler since we're auto-processing
+        uploadButton.style.display = 'none';
+
+        // Handle reviewed file upload
+        const reviewUploadZone = document.getElementById('reviewUploadZone');
+        const reviewFileInput = document.getElementById('reviewFileInput');
+        const reviewUploadStatus = document.getElementById('reviewUploadStatus');
+        const submitReviewButton = document.getElementById('submitReviewButton');
+
+        reviewUploadZone.addEventListener('click', () => reviewFileInput.click());
+        reviewFileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file && file.name.endsWith('.xlsx')) {
+                reviewUploadStatus.textContent = `Selected file: ${file.name}`;
+                // Automatically submit reviewed file
+                submitReviewedFile();
+            } else {
+                reviewUploadStatus.textContent = 'Please select a valid Excel file';
+            }
+        });
+
+        // Function to submit reviewed file
+        function submitReviewedFile() {
+            alert('Reviewed file submitted successfully!');
+            // Reset the workflow
+            document.getElementById('downloadScreen').classList.remove('active');
+            document.getElementById('uploadScreen').classList.add('active');
+            uploadStatus.textContent = '';
+            progressBar.style.width = '0%';
+            reviewUploadStatus.textContent = '';
+        }
+
+        // Remove the submit review button since we're auto-submitting
+        submitReviewButton.style.display = 'none';
+    </script>
+</body>
+</html> 
