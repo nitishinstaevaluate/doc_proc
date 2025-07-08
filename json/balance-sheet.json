@@ -1,1 +1,1111 @@
-
+{"balanceSheetdata": [
+  {
+    "lineEntry": {
+      "particulars": "Assets",
+      "sysCode": 8001,
+      "header": true,
+      "rowNumber": 2
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "Non-current assets",
+      "sysCode": 8002,
+      "header": true,
+      "rowNumber": 4
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(a) property, plant and equipment",
+      "sysCode": 8003,
+      "rowNumber": 5
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i) moveable",
+      "sysCode": 8004,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 6
+    },
+    "31-03-2024": 20,
+    "2024-2025": 30,
+    "2025-2026": 40,
+    "2026-2027": 50,
+    "2027-2028": 60,
+    "2028-2029": 70
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii) immoveable",
+      "sysCode": 8005,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 7
+    },
+    "31-03-2024": 30,
+    "2024-2025": 40,
+    "2025-2026": 50,
+    "2026-2027": 60,
+    "2027-2028": 70,
+    "2028-2029": 80
+  },
+  {
+    "lineEntry": {
+      "particulars": "(b) capital work in progress",
+      "sysCode": 8006,
+      "editable": true,
+      "rowNumber": 8
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(c) investment property",
+      "sysCode": 8007,
+      "editable": true,
+      "rowNumber": 9
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(d) goodwill",
+      "sysCode": 8008,
+      "editable": true,
+      "rowNumber": 10
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(e) other intangible assets",
+      "sysCode": 8009,
+      "editable": true,
+      "rowNumber": 11
+    },
+    "31-03-2024": 10,
+    "2024-2025": 5,
+    "2025-2026": 7,
+    "2026-2027": 9,
+    "2027-2028": 11,
+    "2028-2029": 13
+  },
+  {
+    "lineEntry": {
+      "particulars": "(f) intangible assets under development",
+      "sysCode": 8010,
+      "editable": true,
+      "rowNumber": 12
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(g) biological assets other than bearer plants",
+      "sysCode": 8011,
+      "editable": true,
+      "rowNumber": 13
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(h) right of use of assets",
+      "sysCode": 8012,
+      "editable": true,
+      "rowNumber": 14
+    },
+    "31-03-2024": 2,
+    "2024-2025": 14,
+    "2025-2026": 15,
+    "2026-2027": 62,
+    "2027-2028": 13,
+    "2028-2029": 12
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i) financial assets",
+      "sysCode": 8013,
+      "rowNumber": 15
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i)Investments in Subsidiary/JV/Associate",
+      "sysCode": 8014,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 16
+    },
+    "31-03-2024": 12,
+    "2024-2025": 12,
+    "2025-2026": 14,
+    "2026-2027": 15,
+    "2027-2028": 17,
+    "2028-2029": 19
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii)Other Non-Current Investments",
+      "sysCode": 8015,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 17
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iii)long term loans and advances",
+      "sysCode": 8016,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 18
+    },
+    "31-03-2024": 10,
+    "2024-2025": 34,
+    "2025-2026": 32,
+    "2026-2027": 56,
+    "2027-2028": 77,
+    "2028-2029": 34
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iv) deferred tax assets(net)",
+      "sysCode": 8017,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 19
+    },
+    "31-03-2024": 34,
+    "2024-2025": 41,
+    "2025-2026": 43,
+    "2026-2027": 47,
+    "2027-2028": 53,
+    "2028-2029": 55
+  },
+  {
+    "lineEntry": {
+      "particulars": "(j) other non-current assets",
+      "sysCode": 8018,
+      "editable": true,
+      "rowNumber": 20
+    },
+    "31-03-2024": 12,
+    "2024-2025": 17,
+    "2025-2026": 15,
+    "2026-2027": 22,
+    "2027-2028": 25,
+    "2028-2029": 30
+  },
+  {
+    "lineEntry": {
+      "particulars": "Other Non-Operating Assets",
+      "sysCode": 8019,
+      "header": true,
+      "rowNumber": 21
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "Deposits",
+      "sysCode": 8020,
+      "editable": true,
+      "rowNumber": 22
+    },
+    "31-03-2024": 20,
+    "2024-2025": 31,
+    "2025-2026": 4,
+    "2026-2027": 41,
+    "2027-2028": 45,
+    "2028-2029": 56
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total non current assets",
+      "sysCode": 8021,
+      "header": true,
+      "rowNumber": 24,
+      "dependent": [
+        8004,
+        8005,
+        8006,
+        8007,
+        8008,
+        8009,
+        8010,
+        8011,
+        8012,
+        8015,
+        8016,
+        8017,
+        8018,
+        8020
+      ],
+      "formula": "currentOne6+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14+currentOne16+currentOne17+currentOne18+currentOne19+currentOne20+currentOne21+currentOne22"
+    },
+    "31-03-2024": 150,
+    "2024-2025": 224,
+    "2025-2026": 220,
+    "2026-2027": 362,
+    "2027-2028": 371,
+    "2028-2029": 369
+  },
+  {
+    "lineEntry": {
+      "particulars": "Current assets",
+      "sysCode": 8022,
+      "header": true,
+      "rowNumber": 26
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(a) inventories",
+      "sysCode": 8023,
+      "editable": true,
+      "rowNumber": 27
+    },
+    "31-03-2024": 32,
+    "2024-2025": 45,
+    "2025-2026": 56,
+    "2026-2027": 67,
+    "2027-2028": 78,
+    "2028-2029": 89
+  },
+  {
+    "lineEntry": {
+      "particulars": "(b) financial assets",
+      "sysCode": 8024,
+      "rowNumber": 28
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i)Current investment",
+      "sysCode": 8025,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 29
+    },
+    "31-03-2024": 12,
+    "2024-2025": 23,
+    "2025-2026": 34,
+    "2026-2027": 56,
+    "2027-2028": 78,
+    "2028-2029": 89
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii) trade receivables",
+      "sysCode": 8026,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 30
+    },
+    "31-03-2024": 23,
+    "2024-2025": 54,
+    "2025-2026": 67,
+    "2026-2027": 98,
+    "2027-2028": 123,
+    "2028-2029": 145
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iii) cash and cash equivalents",
+      "sysCode": 8027,
+      "subHeader": true,
+      "rowNumber": 31
+    },
+    "31-03-2024": 33,
+    "2024-2025": 580,
+    "2025-2026": 1199,
+    "2026-2027": 1725,
+    "2027-2028": 1368,
+    "2028-2029": 1084
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iv) bank balance other than (iii)above",
+      "sysCode": 8028,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 32
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(v) short term loans & advances",
+      "sysCode": 8029,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 33
+    },
+    "31-03-2024": 31,
+    "2024-2025": 23,
+    "2025-2026": 44,
+    "2026-2027": 57,
+    "2027-2028": 9,
+    "2028-2029": 10
+  },
+  {
+    "lineEntry": {
+      "particulars": "(vii) current tax assets (net)",
+      "sysCode": 8030,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 34
+    },
+    "31-03-2024": 12,
+    "2024-2025": 23,
+    "2025-2026": 25,
+    "2026-2027": 27,
+    "2027-2028": 18,
+    "2028-2029": 33
+  },
+  {
+    "lineEntry": {
+      "particulars": "(c) other current assets",
+      "sysCode": 8031,
+      "editable": true,
+      "rowNumber": 35
+    },
+    "31-03-2024": 21,
+    "2024-2025": 24,
+    "2025-2026": 28,
+    "2026-2027": 29,
+    "2027-2028": 30,
+    "2028-2029": 34
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total current assets",
+      "sysCode": 8032,
+      "header": true,
+      "rowNumber": 36,
+      "dependent": [
+        8023,
+        8025,
+        8026,
+        8027,
+        8028,
+        8029,
+        8030,
+        8031
+      ],
+      "formula": "currentOne27+currentOne29+currentOne30+currentOne31+currentOne32+currentOne33+currentOne34+currentOne35"
+    },
+    "31-03-2024": 164,
+    "2024-2025": 772,
+    "2025-2026": 1453,
+    "2026-2027": 2059,
+    "2027-2028": 1704,
+    "2028-2029": 1484
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total Assets",
+      "sysCode": 8033,
+      "header": true,
+      "rowNumber": 38,
+      "dependent": [
+        8004,
+        8005,
+        8006,
+        8007,
+        8008,
+        8009,
+        8010,
+        8011,
+        8012,
+        8015,
+        8016,
+        8017,
+        8018,
+        8020,
+        8023,
+        8025,
+        8026,
+        8027,
+        8028,
+        8029,
+        8030,
+        8031
+      ],
+      "formula": "currentOne6+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14+currentOne16+currentOne17+currentOne18+currentOne19+currentOne20+currentOne21+currentOne22+currentOne27+currentOne29+currentOne30+currentOne31+currentOne32+currentOne33+currentOne34+currentOne35"
+    },
+    "31-03-2024": 314,
+    "2024-2025": 996,
+    "2025-2026": 1673,
+    "2026-2027": 2421,
+    "2027-2028": 2075,
+    "2028-2029": 1853
+  },
+  {
+    "lineEntry": {
+      "particulars": "EQUITY AND LIABILITIES",
+      "sysCode": 8034,
+      "header": true,
+      "rowNumber": 40
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "Equity",
+      "sysCode": 8035,
+      "header": true,
+      "rowNumber": 42
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(a) Equity share capital",
+      "sysCode": 8036,
+      "editable": true,
+      "rowNumber": 43
+    },
+    "31-03-2024": 23,
+    "2024-2025": 12,
+    "2025-2026": 34,
+    "2026-2027": 232,
+    "2027-2028": 433,
+    "2028-2029": 17
+  },
+  {
+    "lineEntry": {
+      "particulars": "(b) Preference share capital",
+      "sysCode": 8037,
+      "editable": true,
+      "rowNumber": 44
+    },
+    "31-03-2024": 15,
+    "2024-2025": 30,
+    "2025-2026": 50,
+    "2026-2027": 80,
+    "2027-2028": 90,
+    "2028-2029": 120
+  },
+  {
+    "lineEntry": {
+      "particulars": "(c) Equity Infusion",
+      "sysCode": 8038,
+      "editable": true,
+      "rowNumber": 45
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(d) Share Application Money Pending Allotment",
+      "sysCode": 8039,
+      "editable": true,
+      "rowNumber": 46
+    },
+    "31-03-2024": 7,
+    "2024-2025": 8,
+    "2025-2026": 9,
+    "2026-2027": 11,
+    "2027-2028": 17,
+    "2028-2029": 25
+  },
+  {
+    "lineEntry": {
+      "particulars": "(e) other equity",
+      "sysCode": 8040,
+      "rowNumber": 47
+    },
+    "31-03-2024": 21,
+    "2024-2025": 32,
+    "2025-2026": 44,
+    "2026-2027": 67,
+    "2027-2028": 65,
+    "2028-2029": 45
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i) Securities Premium",
+      "sysCode": 8041,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 48
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii) revaluation Reserve",
+      "sysCode": 8042,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 49
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iii) General Reserves",
+      "sysCode": 8043,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 50
+    },
+    "2024-2025": 141,
+    "2025-2026": 180,
+    "2026-2027": 94,
+    "2027-2028": 58,
+    "2028-2029": -14,
+    "31-03-2024": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iv) Retained Earnings",
+      "sysCode": 8044,
+      "subHeader": true,
+      "rowNumber": 51
+    },
+    "31-03-2024": -109,
+    "2024-2025": 32,
+    "2025-2026": 71,
+    "2026-2027": -15,
+    "2027-2028": -51,
+    "2028-2029": -123
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total Equity",
+      "sysCode": 8045,
+      "header": true,
+      "rowNumber": 52,
+      "dependent": [
+        8036,
+        8037,
+        8038,
+        8039,
+        8040,
+        8041,
+        8042,
+        8043,
+        8044
+      ],
+      "formula": "currentOne43+currentOne44+currentOne45+currentOne46+currentOne47+currentOne48+currentOne49+currentOne50+currentOne51"
+    },
+    "31-03-2024": -43,
+    "2024-2025": 255,
+    "2025-2026": 388,
+    "2026-2027": 469,
+    "2027-2028": 612,
+    "2028-2029": 70
+  },
+  {
+    "lineEntry": {
+      "particulars": "Liabilities",
+      "sysCode": 8046,
+      "header": true,
+      "rowNumber": 54
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "Non-current liabilities",
+      "sysCode": 8047,
+      "header": true,
+      "rowNumber": 55
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(a)financial liabilities",
+      "sysCode": 8048,
+      "rowNumber": 56
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i)borrowings",
+      "sysCode": 8049,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 57
+    },
+    "31-03-2024": 2,
+    "2024-2025": 12,
+    "2025-2026": 13,
+    "2026-2027": 14,
+    "2027-2028": 15,
+    "2028-2029": 16
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii) other financial liabilities",
+      "sysCode": 8050,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 58
+    },
+    "31-03-2024": 12,
+    "2024-2025": 45,
+    "2025-2026": 32,
+    "2026-2027": 7,
+    "2027-2028": 78,
+    "2028-2029": 45
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iii) lease liabilities",
+      "sysCode": 8051,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 59
+    },
+    "31-03-2024": 34,
+    "2024-2025": 76,
+    "2025-2026": 32,
+    "2026-2027": 45,
+    "2027-2028": 88,
+    "2028-2029": 91
+  },
+  {
+    "lineEntry": {
+      "particulars": "(b) provision",
+      "sysCode": 8052,
+      "editable": true,
+      "rowNumber": 60
+    },
+    "31-03-2024": 12,
+    "2024-2025": 45,
+    "2025-2026": 434,
+    "2026-2027": 767,
+    "2027-2028": 123,
+    "2028-2029": 324
+  },
+  {
+    "lineEntry": {
+      "particulars": "(c)  deferred tax liabilities(net)",
+      "sysCode": 8053,
+      "editable": true,
+      "rowNumber": 61
+    },
+    "31-03-2024": 9,
+    "2024-2025": 12,
+    "2025-2026": 76,
+    "2026-2027": 89,
+    "2027-2028": 144,
+    "2028-2029": 136
+  },
+  {
+    "lineEntry": {
+      "particulars": "(d) other non current liabilities",
+      "sysCode": 8054,
+      "editable": true,
+      "rowNumber": 62
+    },
+    "31-03-2024": 33,
+    "2024-2025": 54,
+    "2025-2026": 67,
+    "2026-2027": 98,
+    "2027-2028": 103,
+    "2028-2029": 146
+  },
+  {
+    "lineEntry": {
+      "particulars": "(e) other non operating liabilities",
+      "sysCode": 8055,
+      "editable": true,
+      "rowNumber": 63
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total Non - current Liabilities",
+      "sysCode": 8056,
+      "header": true,
+      "rowNumber": 64,
+      "dependent": [
+        8049,
+        8050,
+        8051,
+        8052,
+        8053,
+        8054,
+        8055
+      ],
+      "formula": "currentOne57+currentOne58+currentOne59+currentOne60+currentOne61+currentOne62+currentOne63"
+    },
+    "31-03-2024": 102,
+    "2024-2025": 244,
+    "2025-2026": 654,
+    "2026-2027": 1020,
+    "2027-2028": 551,
+    "2028-2029": 758
+  },
+  {
+    "lineEntry": {
+      "particulars": "Current liabilities",
+      "sysCode": 8057,
+      "header": true,
+      "rowNumber": 66
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(a) financial liabilities",
+      "sysCode": 8058,
+      "rowNumber": 67
+    },
+    "31-03-2024": null,
+    "2024-2025": null,
+    "2025-2026": null,
+    "2026-2027": null,
+    "2027-2028": null,
+    "2028-2029": null
+  },
+  {
+    "lineEntry": {
+      "particulars": "(i) borrowings",
+      "sysCode": 8059,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 68
+    },
+    "31-03-2024": 21,
+    "2024-2025": 31,
+    "2025-2026": 67,
+    "2026-2027": 87,
+    "2027-2028": 45,
+    "2028-2029": 98
+  },
+  {
+    "lineEntry": {
+      "particulars": "(ii) trade payables",
+      "sysCode": 8060,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 69
+    },
+    "31-03-2024": 44,
+    "2024-2025": 67,
+    "2025-2026": 78,
+    "2026-2027": 89,
+    "2027-2028": 78,
+    "2028-2029": 88
+  },
+  {
+    "lineEntry": {
+      "particulars": "(iii) other financial liabilities(other than these specified in item (c))",
+      "sysCode": 8061,
+      "editable": true,
+      "subHeader": true,
+      "rowNumber": 70
+    },
+    "31-03-2024": 23,
+    "2024-2025": 34,
+    "2025-2026": 45,
+    "2026-2027": 67,
+    "2027-2028": 43,
+    "2028-2029": 76
+  },
+  {
+    "lineEntry": {
+      "particulars": "(b) other current liabilities",
+      "sysCode": 8062,
+      "editable": true,
+      "rowNumber": 71
+    },
+    "31-03-2024": 32,
+    "2024-2025": 56,
+    "2025-2026": 77,
+    "2026-2027": 82,
+    "2027-2028": 156,
+    "2028-2029": 179
+  },
+  {
+    "lineEntry": {
+      "particulars": "(c) provisions",
+      "sysCode": 8063,
+      "editable": true,
+      "rowNumber": 72
+    },
+    "31-03-2024": 11,
+    "2024-2025": 67,
+    "2025-2026": 46,
+    "2026-2027": 128,
+    "2027-2028": 199,
+    "2028-2029": 211
+  },
+  {
+    "lineEntry": {
+      "particulars": "(d) current tax liabilities(net)",
+      "sysCode": 8064,
+      "editable": true,
+      "rowNumber": 73
+    },
+    "31-03-2024": 12,
+    "2024-2025": 45,
+    "2025-2026": 77,
+    "2026-2027": 43,
+    "2027-2028": 98,
+    "2028-2029": 67
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total Current Liabilities",
+      "sysCode": 8065,
+      "header": true,
+      "rowNumber": 74,
+      "dependent": [
+        8059,
+        8060,
+        8061,
+        8062,
+        8063,
+        8064
+      ],
+      "formula": "currentOne68+currentOne69+currentOne70+currentOne71+currentOne72+currentOne73"
+    },
+    "31-03-2024": 143,
+    "2024-2025": 300,
+    "2025-2026": 390,
+    "2026-2027": 496,
+    "2027-2028": 619,
+    "2028-2029": 719
+  },
+  {
+    "lineEntry": {
+      "particulars": "Total Equity and Liabilities",
+      "sysCode": 8066,
+      "header": true,
+      "rowNumber": 76,
+      "dependent": [
+        8036,
+        8037,
+        8038,
+        8039,
+        8040,
+        8041,
+        8042,
+        8043,
+        8044,
+        8049,
+        8050,
+        8051,
+        8052,
+        8053,
+        8054,
+        8055,
+        8059,
+        8060,
+        8061,
+        8062,
+        8063,
+        8064
+      ],
+      "formula": "currentOne43+currentOne44+currentOne45+currentOne46+currentOne47+currentOne48+currentOne49+currentOne50+currentOne51+currentOne57+currentOne58+currentOne59+currentOne60+currentOne61+currentOne62+currentOne63+currentOne68+currentOne69+currentOne70+currentOne71+currentOne72+currentOne73"
+    },
+    "31-03-2024": 202,
+    "2024-2025": 799,
+    "2025-2026": 1432,
+    "2026-2027": 1985,
+    "2027-2028": 1782,
+    "2028-2029": 1547
+  },
+  {
+    "lineEntry": {
+      "particulars": "Check",
+      "sysCode": 8067,
+      "header": true,
+      "rowNumber": 78,
+      "dependent": [
+        8004,
+        8005,
+        8006,
+        8007,
+        8008,
+        8009,
+        8010,
+        8011,
+        8012,
+        8015,
+        8016,
+        8017,
+        8018,
+        8020,
+        8023,
+        8025,
+        8026,
+        8027,
+        8028,
+        8029,
+        8030,
+        8031,
+        8036,
+        8037,
+        8038,
+        8039,
+        8040,
+        8041,
+        8042,
+        8043,
+        8044,
+        8049,
+        8050,
+        8051,
+        8052,
+        8053,
+        8054,
+        8055,
+        8059,
+        8060,
+        8061,
+        8062,
+        8063,
+        8064
+      ],
+      "formula": "currentOne6+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14+currentOne16+currentOne17+currentOne18+currentOne19+currentOne20+currentOne21+currentOne22+currentOne27+currentOne29+currentOne30+currentOne31+currentOne32+currentOne33+currentOne34+currentOne35-currentOne43-currentOne44-currentOne45-currentOne46-currentOne47-currentOne48-currentOne49-currentOne50-currentOne51-currentOne57-currentOne58-currentOne59-currentOne60-currentOne61-currentOne62-currentOne63-currentOne68-currentOne69-currentOne70-currentOne71-currentOne72-currentOne73"
+    },
+    "31-03-2024": 112,
+    "2024-2025": 197,
+    "2025-2026": 241,
+    "2026-2027": 436,
+    "2027-2028": 293,
+    "2028-2029": 306
+  }
+]
+}

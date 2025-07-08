@@ -1,0 +1,977 @@
+{
+"profitLossSheetdata": [
+    {
+      "lineEntry": {
+        "particulars": "Income",
+        "sysCode": 6001,
+        "header": true,
+        "rowNumber": 2
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Revenue From Operations/Sales",
+        "sysCode": 6002,
+        "editable": true,
+        "rowNumber": 3,
+        "romanIndex": "I"
+      },
+      "Sr no.": "I",
+      "31-03-2024": 20,
+      "2024-2025": 30,
+      "2025-2026": 40,
+      "2026-2027": 50,
+      "2027-2028": 60,
+      "2028-2029": 70
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Operating Income:",
+        "sysCode": 6003,
+        "editable": true,
+        "rowNumber": 4,
+        "romanIndex": "II"
+      },
+      "Sr no.": "II",
+      "31-03-2024": 4,
+      "2024-2025": 5,
+      "2025-2026": 6,
+      "2026-2027": 7,
+      "2027-2028": 8,
+      "2028-2029": 9
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Non-Operating Income",
+        "sysCode": 6004,
+        "header": true,
+        "rowNumber": 6,
+        "romanIndex": "III",
+        "dependent": [
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012
+        ],
+        "formula": "currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14"
+      },
+      "Sr no.": "III ",
+      "31-03-2024": 22,
+      "2024-2025": 243,
+      "2025-2026": 173,
+      "2026-2027": 90,
+      "2027-2028": 105,
+      "2028-2029": 113
+    },
+    {
+      "lineEntry": {
+        "particulars": "Commission earned",
+        "sysCode": 6005,
+        "editable": true,
+        "rowNumber": 7
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Investment Income",
+        "sysCode": 6006,
+        "editable": true,
+        "rowNumber": 8
+      },
+      "31-03-2024": 2,
+      "2024-2025": 4,
+      "2025-2026": 5,
+      "2026-2027": 7,
+      "2027-2028": 9,
+      "2028-2029": 10,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Interest Income",
+        "sysCode": 6007,
+        "editable": true,
+        "rowNumber": 9
+      },
+      "31-03-2024": 4,
+      "2024-2025": 5,
+      "2025-2026": 6,
+      "2026-2027": 7,
+      "2027-2028": 8,
+      "2028-2029": 9,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit on sale of property, plant & equipment",
+        "sysCode": 6008,
+        "editable": true,
+        "rowNumber": 10
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit on sale of Intangible asset",
+        "sysCode": 6009,
+        "editable": true,
+        "rowNumber": 11
+      },
+      "31-03-2024": 4,
+      "Sr no.": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Frachise fees",
+        "sysCode": 6010,
+        "editable": true,
+        "rowNumber": 12
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit on sale of equipment",
+        "sysCode": 6011,
+        "editable": true,
+        "rowNumber": 13
+      },
+      "31-03-2024": 12,
+      "2024-2025": 234,
+      "2025-2026": 162,
+      "2026-2027": 76,
+      "2027-2028": 88,
+      "2028-2029": 94,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Income",
+        "sysCode": 6012,
+        "editable": true,
+        "rowNumber": 14
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Total Income",
+        "sysCode": 6013,
+        "header": true,
+        "rowNumber": 15,
+        "romanIndex": "III",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14"
+      },
+      "Sr no.": "III",
+      "31-03-2024": 46,
+      "2024-2025": 278,
+      "2025-2026": 219,
+      "2026-2027": 147,
+      "2027-2028": 173,
+      "2028-2029": 192
+    },
+    {
+      "lineEntry": {
+        "particulars": "Expenses",
+        "sysCode": 6014,
+        "header": true,
+        "rowNumber": 17,
+        "romanIndex": "IV"
+      },
+      "Sr no.": "IV",
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Cost of materials consumed",
+        "sysCode": 6015,
+        "editable": true,
+        "rowNumber": 18
+      },
+      "31-03-2024": 52,
+      "2024-2025": 30,
+      "2025-2026": 40,
+      "2026-2027": 50,
+      "2027-2028": 60,
+      "2028-2029": 70,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Purchases of Stock-in-Trade",
+        "sysCode": 6016,
+        "editable": true,
+        "rowNumber": 19
+      },
+      "31-03-2024": 3,
+      "2024-2025": 4,
+      "2025-2026": 5,
+      "2026-2027": 6,
+      "2027-2028": 7,
+      "2028-2029": 8,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Changes in Inventory",
+        "sysCode": 6017,
+        "editable": true,
+        "rowNumber": 20
+      },
+      "31-03-2024": 3,
+      "2024-2025": 4,
+      "2025-2026": 5,
+      "2026-2027": 6,
+      "2027-2028": 7,
+      "2028-2029": 8,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Employee benefits expense",
+        "sysCode": 6018,
+        "editable": true,
+        "rowNumber": 21
+      },
+      "31-03-2024": 23,
+      "2024-2025": 10,
+      "2025-2026": 11,
+      "2026-2027": 12,
+      "2027-2028": 13,
+      "2028-2029": 14,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Operating Expenses",
+        "sysCode": 6019,
+        "editable": true,
+        "rowNumber": 22
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Non-Operating expenses:",
+        "sysCode": 6020,
+        "header": true,
+        "rowNumber": 24,
+        "dependent": [
+          6021,
+          6022,
+          6023
+        ],
+        "formula": "currentOne25+currentOne26+currentOne27"
+      },
+      "31-03-2024": 32,
+      "2024-2025": 43,
+      "2025-2026": 54,
+      "2026-2027": 65,
+      "2027-2028": 76,
+      "2028-2029": 87,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Loss on sale of property, plant & equipment",
+        "sysCode": 6021,
+        "editable": true,
+        "rowNumber": 25
+      },
+      "31-03-2024": 12,
+      "2024-2025": 13,
+      "2025-2026": 14,
+      "2026-2027": 15,
+      "2027-2028": 16,
+      "2028-2029": 17,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Loss on sale of Intangible asset",
+        "sysCode": 6022,
+        "editable": true,
+        "rowNumber": 26
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Non Operating Expenses",
+        "sysCode": 6023,
+        "editable": true,
+        "rowNumber": 27
+      },
+      "31-03-2024": 20,
+      "2024-2025": 30,
+      "2025-2026": 40,
+      "2026-2027": 50,
+      "2027-2028": 60,
+      "2028-2029": 70,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Total Expense",
+        "sysCode": 6024,
+        "header": true,
+        "rowNumber": 29,
+        "dependent": [
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023
+        ],
+        "formula": "currentOne18+currentOne19+currentOne20+currentOne21+currentOne22+currentOne25+currentOne26+currentOne27"
+      },
+      "31-03-2024": 113,
+      "2024-2025": 91,
+      "2025-2026": 115,
+      "2026-2027": 139,
+      "2027-2028": 163,
+      "2028-2029": 187,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Earnings Before Interest Taxation, Depreciation and Amortisation (EBITDA)",
+        "sysCode": 6025,
+        "header": true,
+        "rowNumber": 31,
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27"
+      },
+      "31-03-2024": -67,
+      "2024-2025": 187,
+      "2025-2026": 104,
+      "2026-2027": 8,
+      "2027-2028": 10,
+      "2028-2029": 5,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Less: Depreciation and amortization expense",
+        "sysCode": 6026,
+        "editable": true,
+        "rowNumber": 32
+      },
+      "31-03-2024": 20,
+      "2024-2025": 50,
+      "2025-2026": 70,
+      "2026-2027": 90,
+      "2027-2028": 100,
+      "2028-2029": 120,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Earnings Before Interest Taxation (EBIT)",
+        "sysCode": 6027,
+        "header": true,
+        "rowNumber": 34,
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32"
+      },
+      "31-03-2024": -87,
+      "2024-2025": 137,
+      "2025-2026": 34,
+      "2026-2027": -82,
+      "2027-2028": -90,
+      "2028-2029": -115,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Finance costs",
+        "sysCode": 6028,
+        "editable": true,
+        "rowNumber": 35
+      },
+      "31-03-2024": 23,
+      "Sr no.": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit/(loss) before exceptional items and tax (I - IV)",
+        "sysCode": 6029,
+        "header": true,
+        "rowNumber": 37,
+        "romanIndex": "V",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026,
+          6028
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32-currentOne35"
+      },
+      "Sr no.": "V",
+      "31-03-2024": -110,
+      "2024-2025": 137,
+      "2025-2026": 34,
+      "2026-2027": -82,
+      "2027-2028": -90,
+      "2028-2029": -115
+    },
+    {
+      "lineEntry": {
+        "particulars": "Exceptional Items",
+        "sysCode": 6030,
+        "editable": true,
+        "rowNumber": 38,
+        "romanIndex": "V1"
+      },
+      "Sr no.": "VI",
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit/(loss) before tax (V-VI)",
+        "sysCode": 6031,
+        "header": true,
+        "rowNumber": 40,
+        "romanIndex": "VII",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026,
+          6028,
+          6030
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32-currentOne35-currentOne38"
+      },
+      "Sr no.": "VII",
+      "31-03-2024": -110,
+      "2024-2025": 137,
+      "2025-2026": 34,
+      "2026-2027": -82,
+      "2027-2028": -90,
+      "2028-2029": -115
+    },
+    {
+      "lineEntry": {
+        "particulars": "Tax expense:",
+        "sysCode": 6032,
+        "rowNumber": 42,
+        "romanIndex": "VIII"
+      },
+      "Sr no.": "VIII",
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(1) Current tax",
+        "sysCode": 6033,
+        "editable": true,
+        "rowNumber": 43
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(2) Deferred tax",
+        "sysCode": 6034,
+        "editable": true,
+        "rowNumber": 44
+      },
+      "31-03-2024": 30,
+      "2024-2025": 40,
+      "2025-2026": 50,
+      "2026-2027": 70,
+      "2027-2028": 23,
+      "2028-2029": 45,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Total Tax Expense",
+        "sysCode": 6035,
+        "header": true,
+        "rowNumber": 45,
+        "dependent": [
+          6033,
+          6034
+        ],
+        "formula": "currentOne43+currentOne44"
+      },
+      "31-03-2024": 30,
+      "2024-2025": 40,
+      "2025-2026": 50,
+      "2026-2027": 70,
+      "2027-2028": 23,
+      "2028-2029": 45,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit (Loss) for the period from continuing operations (VII-VIII)",
+        "sysCode": 6036,
+        "header": true,
+        "rowNumber": 47,
+        "romanIndex": "IX",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026,
+          6028,
+          6030,
+          6033,
+          6034
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32-currentOne35-currentOne38-currentOne43-currentOne44"
+      },
+      "Sr no.": "IX",
+      "31-03-2024": -140,
+      "2024-2025": 97,
+      "2025-2026": -16,
+      "2026-2027": -152,
+      "2027-2028": -113,
+      "2028-2029": -160
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit/(loss) from discontinued operations",
+        "sysCode": 6037,
+        "editable": true,
+        "rowNumber": 49,
+        "romanIndex": "X"
+      },
+      "Sr no.": "X",
+      "31-03-2024": 32,
+      "2024-2025": 44,
+      "2025-2026": 55,
+      "2026-2027": 66,
+      "2027-2028": 77,
+      "2028-2029": 88
+    },
+    {
+      "lineEntry": {
+        "particulars": "Tax expense of discontinued operations",
+        "sysCode": 6038,
+        "editable": true,
+        "rowNumber": 50,
+        "romanIndex": "XI"
+      },
+      "Sr no.": "XI",
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit/(loss) from Discontinued operations (after tax) (X-XI)",
+        "sysCode": 6039,
+        "header": true,
+        "rowNumber": 51,
+        "romanIndex": "XII",
+        "dependent": [
+          6037,
+          6038
+        ],
+        "formula": "currentOne49+currentOne50"
+      },
+      "Sr no.": "XII",
+      "31-03-2024": 32,
+      "2024-2025": 44,
+      "2025-2026": 55,
+      "2026-2027": 66,
+      "2027-2028": 77,
+      "2028-2029": 88
+    },
+    {
+      "lineEntry": {
+        "particulars": "Profit/(loss) for the period (IX+XII)",
+        "sysCode": 6040,
+        "header": true,
+        "rowNumber": 53,
+        "romanIndex": "XIII",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026,
+          6028,
+          6030,
+          6033,
+          6034,
+          6037,
+          6038
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32-currentOne35-currentOne38-currentOne43-currentOne44+currentOne49+currentOne50"
+      },
+      "Sr no.": "XIII",
+      "31-03-2024": -108,
+      "2024-2025": 141,
+      "2025-2026": 39,
+      "2026-2027": -86,
+      "2027-2028": -36,
+      "2028-2029": -72
+    },
+    {
+      "lineEntry": {
+        "particulars": "Other Comprehensive Income",
+        "sysCode": 6041,
+        "rowNumber": 55,
+        "romanIndex": "XIV"
+      },
+      "Sr no.": "XIV",
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Foreign currency translation gains",
+        "sysCode": 6042,
+        "rowNumber": 56
+      },
+      "31-03-2024": 20,
+      "2024-2025": 10,
+      "2025-2026": 30,
+      "2026-2027": 50,
+      "2027-2028": 40,
+      "2028-2029": 60,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "A",
+        "sysCode": 6043,
+        "rowNumber": 58
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(i) Items that will not be reclassified to profit or loss",
+        "sysCode": 6044,
+        "editable": true,
+        "rowNumber": 59
+      },
+      "31-03-2024": 59,
+      "2024-2025": 12,
+      "2025-2026": 13,
+      "2026-2027": 14,
+      "2027-2028": 15,
+      "2028-2029": 16,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+        "sysCode": 6045,
+        "editable": true,
+        "rowNumber": 60
+      },
+      "31-03-2024": 60,
+      "2024-2025": 43,
+      "2025-2026": 56,
+      "2026-2027": 52,
+      "2027-2028": 76,
+      "2028-2029": 81,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "B",
+        "sysCode": 6046,
+        "rowNumber": 61
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(i) Items that will be reclassified to profit or loss",
+        "sysCode": 6047,
+        "editable": true,
+        "rowNumber": 62
+      },
+      "Sr no.": null,
+      "31-03-2024": null,
+      "2024-2025": null,
+      "2025-2026": null,
+      "2026-2027": null,
+      "2027-2028": null,
+      "2028-2029": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "(ii) Income tax relating to items that will be reclassified to profit or loss",
+        "sysCode": 6048,
+        "editable": true,
+        "rowNumber": 63
+      },
+      "31-03-2024": 10,
+      "2024-2025": 20,
+      "2025-2026": 30,
+      "2026-2027": 40,
+      "2027-2028": 50,
+      "2028-2029": 60,
+      "Sr no.": null
+    },
+    {
+      "lineEntry": {
+        "particulars": "Total Comprehensive Income for the period (XIII+XIV) (Comprising Profit (Loss) and Other Comprehensive Income for the period)",
+        "sysCode": 6049,
+        "header": true,
+        "rowNumber": 65,
+        "romanIndex": "XV",
+        "dependent": [
+          6003,
+          6002,
+          6005,
+          6006,
+          6007,
+          6008,
+          6009,
+          6010,
+          6011,
+          6012,
+          6015,
+          6016,
+          6017,
+          6018,
+          6019,
+          6021,
+          6022,
+          6023,
+          6026,
+          6028,
+          6030,
+          6033,
+          6034,
+          6037,
+          6038,
+          6044,
+          6045,
+          6047,
+          6048
+        ],
+        "formula": "currentOne3+currentOne4+currentOne7+currentOne8+currentOne9+currentOne10+currentOne11+currentOne12+currentOne13+currentOne14-currentOne18-currentOne19-currentOne20-currentOne21-currentOne22-currentOne25-currentOne26-currentOne27-currentOne32-currentOne35-currentOne38-currentOne43-currentOne44+currentOne49+currentOne50+currentOne59+currentOne60+currentOne62+currentOne63"
+      },
+      "Sr no.": "XV",
+      "31-03-2024": 21,
+      "2024-2025": 216,
+      "2025-2026": 138,
+      "2026-2027": 20,
+      "2027-2028": 105,
+      "2028-2029": 85
+    }
+  ]
+  }
